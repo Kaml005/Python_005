@@ -14,8 +14,8 @@ B_id="SBEXEU_EUR"
 z_date=str(date)
 prev_date=str(date-1)
 
-ftp = FTP('fts-adminftp.factset.com')
-ftp.login('cand_bdf_qnt','2X$_9TE_38L$')
+ftp = FTP('***.com')
+ftp.login('***','***')
 ftp.cwd('/datafeeds/benchmarks/')
 #assigning file names to variables
 confile_0 =FAM+'_const_'+z_date+'.txt'
