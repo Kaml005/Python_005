@@ -11,8 +11,8 @@ start = datetime.now()
 date=str(20210211)
 prev_date=str(20210210)
 FAM='spus'
-ftp = FTP('fts-adminftp.factset.com')
-ftp.login('cand_bdf_qnt','2X$_9TE_38L$')
+ftp = FTP('****.com')
+ftp.login('*****','****')
 ftp.cwd('/datafeeds/benchmarks/')
 files=[FAM+'_index_'+date+'.xml',
        FAM+'_index_'+prev_date+'.xml',
